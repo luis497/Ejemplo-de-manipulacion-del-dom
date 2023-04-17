@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body{
+  background-color: black;
+}
+
+#titulo {
+    font-size: 60px;
+    text-align:center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #E3CCAE;
+}
+
+.tarjetas{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#form2 {
+    font-size: 50px;
+    text-align:center;
+    font-family: 'Gloria Hallelujah', cursive;
+    flex-direction:row;
+}
+
+#form {
+    font-size: 50px;
+    text-align:center;
+    font-family: 'Gloria Hallelujah', cursive;
+    flex-direction: column;
+}
+
+#calculo1{
+    font-size: 25px;
+    text-align:center;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-radius: 50px; 
+}
+
+#calculo2{
+    font-size: 25px;
+    text-align:center;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-radius: 50px; 
+}
+
+.btnSumar{
+    font-size: 30px;
+    border: 1px solid #2e518b; 
+    padding:10px; 
+    background-color: #2e518b; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px; 
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.btnRestar{
+    font-size: 30px;
+    border: 1px solid green; 
+    padding: 10px; 
+    background-color: green; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px; 
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.btnDividir{
+    font-size: 30px;
+    border: 1px solid yellow; 
+    padding: 10px; 
+    background-color: yellow; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px; 
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.btnMultiplicar{
+    font-size: 30px;
+    border: 1px solid red; 
+    padding: 10px; 
+    background-color: red; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px; 
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#result{
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
